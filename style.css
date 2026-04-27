@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #dca339;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cf2ec1;
+}
+
+.card {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f8fafc;
+    border: 2px solid #cbd5e1;
+}
+
+.card h2 {
+    color: #0f172a;
+}
+
+.card p {
+    color: #334155;
+    font-size: 16px;
+}
